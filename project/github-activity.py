@@ -27,7 +27,7 @@ def fetch_user_events(username, event_type=None):
 def main():
     parser = argparse.ArgumentParser(description="Получить активность пользователя GitHub.")
     parser.add_argument("username", help="Имя пользователя GitHub")
-    parser.add_argument("-t", "--type", help="Фильтр по типу события (например, PushEvent)")
+    parser.add_argument("-t", "--type", help="Фильтр по типу события (например, PushEvent, IssuesEvent, WatchEvent)")
     args = parser.parse_args()
 
     events = fetch_user_events(args.username, args.type)
