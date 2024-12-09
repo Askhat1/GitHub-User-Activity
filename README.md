@@ -18,7 +18,7 @@ Follow the steps below to get the GitHub User Activity CLI up and running on you
 
    ```bash
    git clone https://github.com/Askhat1/GitHub-User-Activity.git
-   cd GitHub-User-Activity```
+
 
   ```cd github-user-activity``` 
 
