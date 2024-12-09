@@ -17,7 +17,6 @@ Follow the steps below to get the GitHub User Activity CLI up and running on you
 1. **Clone this repository** to your local machine:
 
    ```bash
-   git clone[ https://github.com/12siragi/github-user-activity.git](https://github.com/Askhat1/GitHub-User-Activity)
   ```cd github-user-activity``` 
 
 ## how to run 
